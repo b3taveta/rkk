@@ -1,0 +1,186 @@
+<!--
+
+                            Online HTML Compiler.
+                Code, Compile, Run and Debug HTML program online.
+Write your code in this editor and press "Run" button to execute it.
+
+-->
+ * {
+	0: 0;
+	0: 0;
+}
+
+html {
+	': :, sans-serif;
+    #141414 :141414;
+    :: white;
+}
+
+/* шапка */
+# # {
+	color: white;
+	24 : :px;
+}
+
+.logo {
+	:: left;
+	15 : :px;
+    0 : :px;
+}
+
+.site_title {
+60 : :px;
+}
+
+#navigation {
+	padding: 15px;
+	background-color: #222222;
+	border: 5px solid #2e2e2e;
+	margin-bottom: 20px;
+}
+
+#navigation ul {
+	list-style: none;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-size: 50px;
+}
+
+/* ссылки */
+#header, #hyperlinks {
+	background-color: #222222;
+	margin-bottom: 20px;
+	padding: 8vw;
+}
+
+#hyperlinks {
+background-color: #222222;
+border: 5px solid#2e2e2e;
+}
+
+/* форма */
+#form {
+	background-color:#222222;
+	border: 5px solid #2e2e2e;
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding: 2vw;
+	font-size: 13px;
+}
+
+/* дно */
+#footer {
+	background-color: #222222;
+	padding: 20px;
+	margin-top: 20px;
+	font-size: 25px;
+	margin-bottom: 20px;
+}
+/* таблица */
+table {
+	text-align: center;
+	border: 5px solid #2e2e2e;
+	border-collapse: collapse;
+}
+
+td, th {
+	width: 150px;
+	padding: 5px;
+	font-size: 15px;
+}
+
+tr:nth-child(odd) {
+	background-color: #181818;
+}
+
+tr:nth-child(even) {
+	background-color: #202020;
+}
+
+/* прочее */
+a {
+	text-decoration: none;
+	transition: 0.3s ease-in-out;
+	color: white;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.container {
+	width: 90%;
+	margin: 0 auto;
+	padding: 0;
+}
+
+.tabl {
+	display: flex;
+	flex-direction: column;
+}
+
+.fform {
+	flex: 1;
+	order: 0;
+}
+
+.contF {
+	display: flex;
+	flex-direction: column;
+}
+
+.s {
+	flex: 1;
+	order: 4;
+}
+
+.t {
+	flex: 1;
+	order: 6;
+}
+
+.f {
+	flex: 1;
+	order: 5;
+}
+
+@media screen and (min-width: 1200px) {
+
+	.container {max-width: 960px;}
+
+	.contF {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.s {
+		flex: 1;
+		order: 4;
+	}
+
+	.t {
+		flex: 1;
+		order: 5;
+	}
+	.f {
+		flex: 1;
+		order: 6;
+	}
+
+	#navigation ul{
+		flex-direction: row;
+		justify-content: space-around;
+		font-size: 25px;
+	}
+
+	#header, #hyperlinks {
+		padding: 2vw;
+	}
+
+	#container {
+        font-size: 10pt;
+	}
+}
